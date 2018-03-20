@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>AjouterPizza</title>
+</head>
+<body>
+	<h1>Gestion des pizzas</h1>
+	<h2>Ajouter des pizzas</h2>
+
+	<form action="/pizzas" method="post">
+		<label for="libellé">Libellé :</label> 
+		<input type="text"name="libellé" /> <label for="Référence">code :</label> <input
+			type="text" name="référence" /> <label for="Prix">Prix :</label> <input
+			type="number" name="prix" /> <label for="catégorie">Categorie</label>
+		<input type="text" name="catégorie" /> <input type="submit"
+			value="Enregistrer">
+	</form>
+</body>
+</html>
